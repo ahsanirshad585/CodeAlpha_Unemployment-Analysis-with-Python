@@ -32,6 +32,7 @@ Joblib: Saving and loading the trained model.
 ## Project Workflow
 
 1. Data Preprocessing
+   
    Removed rows with missing values.
    
    Standardized region names to lowercase and removed whitespaces.
@@ -56,7 +57,7 @@ Joblib: Saving and loading the trained model.
 
 3. Machine Learning
    
- a. Model Training:
+    a. Model Training:
  
     Features: Estimated Labour Participation Rate (%) and Estimated Employed.
     
@@ -66,7 +67,7 @@ Joblib: Saving and loading the trained model.
     
     Trained a Linear Regression model on the training set.
 
- b. Model Evaluation:
+    b. Model Evaluation:
  
     Metrics:
     
@@ -80,15 +81,15 @@ Joblib: Saving and loading the trained model.
     
     Residual Plot: Highlights residual patterns to check model assumptions.
 
-c. Feature Importance
+   c. Feature Importance
 
    Analyzed regression coefficients to determine the importance of features.
 
-d. Prediction on New Test Cases
+   d. Prediction on New Test Cases
 
    Predicted unemployment rates for new inputs (e.g., Labour Participation Rate and Employed).
 
-e. Time Series Comparison
+   e. Time Series Comparison
 
    Visualized the actual vs predicted unemployment rates over time.
 
